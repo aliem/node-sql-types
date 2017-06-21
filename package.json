@@ -1,0 +1,33 @@
+{
+  "name": "sql-types",
+  "version": "1.0.0",
+  "description": "Simple node-sql type definitions",
+  "main": "lib/index.js",
+  "scripts": {
+    "prepublish": "tsc",
+    "tsc": "tsc",
+    "test": "tape test/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aliem/node-sql-types.git"
+  },
+  "keywords": [
+    "sql",
+    "node-sql",
+    "types",
+    "typescript"
+  ],
+  "author": "Lorenzo Giuliani <lorenzo@frenzart.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aliem/node-sql-types/issues"
+  },
+  "homepage": "https://github.com/aliem/node-sql-types#readme",
+  "devDependencies": {
+    "@types/node": "6",
+    "node-sql": "^1.1.5",
+    "tape": "^4.6.3",
+    "typescript": "2.4"
+  }
+}
